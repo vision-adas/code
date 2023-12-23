@@ -1,0 +1,20 @@
+model:
+  name: 'mono_regnet'
+  depth_num_layers: 18
+  pose_num_layers: 18
+  frame_ids: [0, -1, 1]
+  imgs_per_gpu: 4
+  height: 480
+  width: 640
+  scales: [0, 1, 2, 3] # output different scales of depth maps
+  min_depth: 0.1 # minimum of predicted depth value
+  max_depth: 100.0 # maximum of predicted depth value
+  depth_pretrained_path: null
+  pose_pretrained_path: null
+  extractor_pretrained_path: null
+  automask: True #if 's' in FRAME_IDS else True
+  disp_norm: True # if 's' in FRAME_IDS else True,
+  perception_weight: 0.001
+  smoothness_weight: 0.001
+optim:
+  lr: 0.0001

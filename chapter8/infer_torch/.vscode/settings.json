@@ -1,0 +1,9 @@
+{
+    "git.ignoreLimitWarning": true,
+    "files.associations": {
+        "memory_resource": "cpp",
+        "iomanip": "cpp",
+        "ios": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "TensorRT",
+    "image": "adas:latest",
+    "runArgs": [
+        "--gpus", "all",
+        "-e", "SHELL=/bin/bash",
+        "-v", "/home/liustein/book_draft/code_publish/chapter8/infer_trt:/workspace",
+        "-v", "/media/liustein/Liustein/Data/gopro/undistorted:/data"
+    ]
+}

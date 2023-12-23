@@ -1,0 +1,12 @@
+tensorboard
+numpy
+tqdm
+Pillow
+opencv-python>=4.5
+albumentations
+munch
+onnx
+pycocotools
+matplotlib
+https://download.pytorch.org/whl/cpu/torch-2.0.0%2Bcpu-cp38-cp38-linux_x86_64.whl
+https://download.pytorch.org/whl/cpu/torchvision-0.15.0%2Bcpu-cp38-cp38-linux_x86_64.whl

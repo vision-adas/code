@@ -1,0 +1,12 @@
+{
+    "name": "Torch",
+    "image": "adas:latest",
+    "runArgs": [
+        // "--gpus",
+        // "all",
+        "-e",
+        "SHELL=/bin/bash",
+        "-v",
+        "/home/vision/code/data:/data"
+    ]
+}

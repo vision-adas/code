@@ -1,0 +1,50 @@
+[
+    {
+        "layer": "resnet.layer1",
+        "index": 0,
+        "all": 64,
+        "channels": []
+    },
+    {
+        "layer": "resnet.layer1",
+        "index": 1,
+        "all": 64,
+        "channels": []
+    },
+    {
+        "layer": "resnet.layer2",
+        "index": 0,
+        "all": 128,
+        "channels": []
+    },
+    {
+        "layer": "resnet.layer2",
+        "index": 1,
+        "all": 128,
+        "channels": []
+    },
+    {
+        "layer": "resnet.layer3",
+        "index": 0,
+        "all": 256,
+        "channels": []
+    },
+    {
+        "layer": "resnet.layer3",
+        "index": 1,
+        "all": 256,
+        "channels": []
+    },
+    {
+        "layer": "resnet.layer4",
+        "index": 0,
+        "all": 512,
+        "channels": []
+    },
+    {
+        "layer": "resnet.layer4",
+        "index": 1,
+        "all": 512,
+        "channels": []
+    }
+]
