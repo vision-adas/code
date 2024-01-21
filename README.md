@@ -1,7 +1,7 @@
 # 《PyTorch自动驾驶视觉感知算法实战》示例代码
 本代码库中的代码将在本书上市后继续更新和改进，包括适配更新的版本，修改bug，对书中的错漏之处进行勘误，甚至根据读者要求添加新功能。代码库中的代码可以直接训练和调试，代码亦可以用于商业用途。
 
-gitee代码库：https://gitee.com/vision-adas/code
+gitee代码库（暂不可用）：https://gitee.com/vision-adas/code
 
 代码库的文件内容如下：
 
