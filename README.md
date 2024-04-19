@@ -3,11 +3,24 @@
 
 $$\frac{\partial L}{\partial W_1}=X\cdot (W_2\cdot (\frac{2}{n}\sum_{i=1}^{n}{(f_i-y_i)^T)^T}$$
 
-第二十八页：
+页21，行6:
 
-“因此，下采样层（平均~~地~~化层）” 应为：
+“用卷积和~~下采样~~的组合来取代转置卷积” -> 
+“用卷积和上采样的组合来取代转置卷积”, 感谢读者[YuDongSir](https://github.com/YuDongSir) 的勘误
 
+页28：
+
+“因此，下采样层（平均~~地~~化层）” -> 
 “因此，下采样层（平均**池**化层）”，感谢读者 [silencht](https://github.com/silencht) 的勘误
+
+页64，表2-7:
+
+~~data = np.ones~~和~~data = np.eye~~ -> 
+data = torch.ones和data = torch.eye, 感谢读者[YuDongSir](https://github.com/YuDongSir) 的勘误
+
+页107, 代码块中:
+
+0,1,2,3号特征图应为原分辨率的1/32, 1/16, 1/8, 1/4，因为conv1的stride等于2，感谢读者[YuDongSir](https://github.com/YuDongSir) 的勘误
 
 # 《PyTorch自动驾驶视觉感知算法实战》示例代码
 
