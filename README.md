@@ -25,6 +25,23 @@ data = torch.ones和data = torch.eye, 感谢读者[YuDongSir](https://github.com
 
 0,1,2,3号特征图应为原分辨率的1/32, 1/16, 1/8, 1/4，因为conv1的stride等于2，感谢读者[YuDongSir](https://github.com/YuDongSir) 的勘误
 
+**页172，173命令改动:**
+
+因为mmdetection改变模型命名规则，模型下载应为：
+
+```bash
+mim download mmdet --config yolov3_mobilenetv2_8xb24-320-300e_coco --dest .
+```
+
+模型测试命令应为:
+
+```bash
+python demo/image_demo.py demo/demo.jpg yolov3_mobilenetv2_8xb24-320-300e_coco.py --weights yolov3_mobilenetv2_320_300e_coco_20210719_215349-d18dff72.pth --out-dir output --device cuda
+```
+
+如果.pth文件找不到，则换成完整路径
+
+
 # 《PyTorch自动驾驶视觉感知算法实战》示例代码
 
 本代码库中的代码将在本书上市后继续更新和改进，包括适配更新的版本，修改bug，对书中的错漏之处进行勘误，甚至根据读者要求添加新功能。代码库中的代码可以直接训练和调试，代码亦可以用于商业用途。
