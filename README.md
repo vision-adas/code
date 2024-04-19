@@ -1,4 +1,5 @@
 # 勘误
+
 **第一章式（1-16）应为：**
 
 $$\frac{\partial L}{\partial W_1}=X\cdot (W_2\cdot (\frac{2}{n}\sum_{i=1}^{n}{(f_i-y_i)^T)^T}$$
