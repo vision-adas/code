@@ -39,7 +39,7 @@ mim download mmdet --config yolov3_mobilenetv2_8xb24-320-300e_coco --dest .
 python demo/image_demo.py demo/demo.jpg yolov3_mobilenetv2_8xb24-320-300e_coco.py --weights yolov3_mobilenetv2_320_300e_coco_20210719_215349-d18dff72.pth --out-dir output --device cuda
 ```
 
-如果.pth文件找不到，则换成完整路径
+如果.pth文件找不到，则换成完整路径，感谢读者[YuDongSir](https://github.com/YuDongSir) 的勘误
 
 
 # 《PyTorch自动驾驶视觉感知算法实战》示例代码
