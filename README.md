@@ -181,6 +181,25 @@ mkdir seg_pred
 ./build/torch_inference
 ```
 
+如果因为网络问题导致docker镜像编译时间过长，请尝试从百度盘下载docker镜像并离线加载：
+
+链接：https://pan.baidu.com/s/1oygq5e8BQ3M_o_ErOoWzpA?pwd=nit3 
+提取码：nit3 
+
+```bash
+cd chapter8
+docker load -i vision.tar
+cd ..
+docker run -v $(pwd):/workspace -w /workspace -it vision bash
+cd chapter8/infer_torch/
+mkdir build
+cd build
+make
+cd ..
+mkdir seg_pred
+./build/torch_inference
+```
+
 执行完成后seg_pred文件夹中应出现推理输出的语义分割图。
 
 ##### 使用TensorRT部署模型
